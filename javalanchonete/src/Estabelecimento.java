@@ -1,5 +1,4 @@
 import area.atendimento.Atendente;
-import area.atendimento.cozinha.Almoxarife;
 import area.atendimento.cozinha.Cozinheiro;
 import area.cliente.Cliente;
 
