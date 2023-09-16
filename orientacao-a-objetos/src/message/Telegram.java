@@ -1,14 +1,15 @@
 package message;
 
-public class MSNmessager {
+public class Telegram {
+
     public void enviarmensagem() {
         validarConectadoInternet();
-        System.out.println("Enviando mensagem");
+        System.out.println("Enviando mensagem pelo telegram");
         salvarHistoricoMensagem();
     }
 
     public void recebermensagem() {
-        System.out.println("Recebendo mensagem");
+        System.out.println("Recebendo mensagem pelo telegram");
     }
 
     private void validarConectadoInternet() {
@@ -16,6 +17,7 @@ public class MSNmessager {
     }
 
     private void salvarHistoricoMensagem() {
-        System.out.println("Salvando histórico da mensagem");
+        System.out.println("Salvando histórico da mensagem pelo telegram");
     }
+
 }

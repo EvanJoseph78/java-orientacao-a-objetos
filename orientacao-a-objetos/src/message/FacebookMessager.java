@@ -1,14 +1,15 @@
 package message;
 
-public class MSNmessager {
+public class FacebookMessager {
+
     public void enviarmensagem() {
         validarConectadoInternet();
-        System.out.println("Enviando mensagem");
+        System.out.println("Enviando mensagem pelo facebook messager");
         salvarHistoricoMensagem();
     }
 
     public void recebermensagem() {
-        System.out.println("Recebendo mensagem");
+        System.out.println("Recebendo mensagem pelo facebook messager");
     }
 
     private void validarConectadoInternet() {
@@ -16,6 +17,6 @@ public class MSNmessager {
     }
 
     private void salvarHistoricoMensagem() {
-        System.out.println("Salvando histórico da mensagem");
+        System.out.println("Salvando histórico da mensagem pelo facebook messager");
     }
 }
