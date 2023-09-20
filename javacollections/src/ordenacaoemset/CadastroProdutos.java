@@ -47,7 +47,7 @@ public class CadastroProdutos {
 
         System.out.println(cadastroProdutos.exibirProdutosPorNome());
         System.out.println("----------------------");
-        System.out.println(cadastroProdutos.exibirProdutosPorPreco());
+System.out.println(cadastroProdutos.exibirProdutosPorPreco());
 
         // mostrar(cadastroProdutos);
     }
